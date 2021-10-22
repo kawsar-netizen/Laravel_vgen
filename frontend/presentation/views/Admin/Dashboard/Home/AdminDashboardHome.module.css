@@ -1,0 +1,31 @@
+.adminDashboardCard {
+  color: #fff !important;
+}
+
+.valueDetailsCard__dollarBox {
+  background-color: #282a34 !important;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff !important;
+  border-radius: 10px;
+}
+.valueDetailsCard__info {
+  color: #206483 !important;
+}
+
+.aproveDetailsCard {
+  background-color: #fff;
+  padding: 10px 0px 10px 10px !important;
+  margin-top: 1rem;
+}
+.viewReqBtn {
+  padding: 10px;
+  color: #fff;
+  background-color: #5aac3b;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

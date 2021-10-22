@@ -1,0 +1,64 @@
+.signup {
+    text-align: center;
+}
+
+.signupleft {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.signup a {
+    color: #5a9bce;
+}
+
+.helpandsupport {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: center;
+}
+
+.box {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 90%;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    color: #fff;
+}
+
+/* signupRIGHT */
+.signupRight {
+    background-color: #f8f8f8;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.signupRight a {
+    color: #5a9bce;
+}
+.error{
+    color:red;
+}
+.signupform {
+    margin: 4rem auto 3rem auto;
+}
+
+.formBottom {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}

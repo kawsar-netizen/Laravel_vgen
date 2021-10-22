@@ -1,0 +1,15 @@
+.dashboard__sidebarRight {
+    background-color: #f4f7fd;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.dashboard__sidebarRight_row1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dashboard__sidebarRight_row1>* {
+    margin-right: 1rem !important;
+}

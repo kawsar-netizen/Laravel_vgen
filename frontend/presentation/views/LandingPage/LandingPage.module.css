@@ -1,0 +1,53 @@
+/* HEADER */
+.landingpage_header {
+    background: url('/assets/images/Images/Image_Landing_Page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0 2rem 1rem;
+}
+
+.logo {
+    height: 50px;
+    object-fit: contain;
+}
+
+.navbarRight {
+    display: flex;
+    align-items: center;
+    color: lightgrey;
+}
+
+.navbarRight_login {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    width: 400px;
+    color: #fff;
+    font-weight: bold;
+    background-repeat: 5px;
+}
+
+.headerMidContent {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 1rem auto 7rem auto;
+    color: #fff;
+}
+.userHighlight{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.userInfoHightight{
+    display:flex;
+    align-items:center; 
+}
+/* 2NDPART */

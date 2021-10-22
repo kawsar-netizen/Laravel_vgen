@@ -1,0 +1,10 @@
+.ongoingTaskCardDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #eef7fd !important;
+    padding: 1rem !important;
+    flex: 1 !important;
+}

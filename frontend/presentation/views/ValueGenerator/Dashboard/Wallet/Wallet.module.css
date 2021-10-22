@@ -1,0 +1,11 @@
+.timeCard {
+    background-color: #ff961e !important;
+    border-radius: 10px !important;
+    color: #fff !important;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    margin: 1rem 1rem 1rem 0rem;
+}

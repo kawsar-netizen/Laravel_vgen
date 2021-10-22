@@ -1,0 +1,9 @@
+.layoutContent_wrapper {
+    overflow-y: scroll;
+    height: 100vh;
+    padding: 2rem 0 2rem 0;
+}
+
+.layoutContent_wrapper::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,26 @@
+.ongoingTaskCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eef7fd !important;
+    padding: 1rem !important;
+    flex: 1 !important;
+    height:100%;
+}
+.taskBarButton1, .taskBarButton2{
+    color: white;
+    border:none;
+    border-radius:25px;
+    padding:10px 16px;
+    cursor:pointer;
+    font-weight:500;
+    width:120px;
+}
+.taskBarButton1{
+    background-color:#FF8800;
+    margin-bottom: 1rem;
+}
+.taskBarButton2{
+    background-color:#000;
+}

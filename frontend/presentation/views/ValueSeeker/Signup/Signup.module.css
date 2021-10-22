@@ -1,0 +1,89 @@
+.signup {
+    text-align: center;
+}
+
+.signupleft {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.formInput {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+.input {
+    display: flex;
+    align-items: center;
+    background-color: #b1d9f8;
+    padding: 10px;
+    color: #596e7e;
+    border-radius: 5px;
+    width: 100%;
+}
+.input Input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: gray;
+    height: 100%;
+    width: 100%;
+}
+.logo {
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+
+.signup a {
+    color: #5a9bce;
+}
+
+.helpandsupport {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: center;
+}
+
+.box {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 90%;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    color: #fff;
+}
+
+/* signupRIGHT */
+.signupRight {
+    background-color: #f8f8f8;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.error{
+    color:red;
+    margin-bottom: 15px;
+}
+.signupRight a {
+    color: #5a9bce;
+}
+
+.signupform {
+    margin: 4rem auto 3rem auto;
+}
+
+.formBottom {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}

@@ -1,0 +1,33 @@
+.formInput {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+.formInput label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #999999;
+    text-transform: capitalize;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    background-color: #b1d9f8;
+    padding: 10px;
+    color: gray;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: gray;
+    height: 100%;
+    width: 100%;
+}

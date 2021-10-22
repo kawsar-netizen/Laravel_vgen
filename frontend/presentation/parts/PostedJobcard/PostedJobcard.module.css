@@ -1,0 +1,15 @@
+/* postedJobcardLeft */
+.postedJobcardLeft {
+    background-color: #d8f0ff;
+    padding: 1rem 3px;
+    height: 100%;
+}
+.postedJobcardRight{
+    background-color: #f8faff;
+    padding: 2rem;
+    height: 100%;
+}
+.modalStyle{
+    width:40%;
+    margin:auto;
+}

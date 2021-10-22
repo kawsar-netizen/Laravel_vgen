@@ -1,0 +1,40 @@
+.formTop {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.externallogin {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    flex: 1;
+    border: 1px solid lightgrey;
+    cursor:pointer;
+}
+
+.formtopwrapper {
+    display: flex;
+    margin:20px;
+    align-items: center;
+    justify-content:center
+}
+.facebook{
+    text-transform: lowercase;
+    border:1px solid #4c69ba;
+    font-weight: 600;
+    font-size: 13px;
+    cursor:pointer;
+    outline:none;
+    background-color: #4c69ba;
+    padding:9px 16px;
+    margin-left: 10px;
+    color:white;
+    text-transform: inherit;
+    border-radius:2px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}

@@ -1,0 +1,35 @@
+.formInput {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.formInput label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #999999;
+    text-transform: capitalize;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    /* background-color: #b1d9f8; */
+    padding: 10px;
+    color: #596e7e;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #99bcd7;
+    height: 100%;
+    width: 100%;
+}

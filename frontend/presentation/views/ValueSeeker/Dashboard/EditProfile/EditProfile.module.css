@@ -1,0 +1,123 @@
+.profileImgWrapper {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: 30px auto;
+}
+
+.profileImg {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain;
+}
+
+.editIcon {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.requiredSkills{
+    margin: 12px 0px;
+}
+.skillHeading{
+    font-weight: 600;
+    color:gray;
+}
+.imageHolder{
+    width: 100%;
+    margin:12px 0px;
+    border-radius: 5px;
+}
+.img{
+    width:100%;
+    height:150px;
+    object-fit: cover;
+}
+.input[type="file"]{
+    display:none;
+}
+.fileLabel{
+    padding:10px 15px;
+    border-radius: 15px;
+    color: white;
+    background-color: teal;
+    cursor:pointer;
+
+}
+.fileHandle{
+    margin-bottom: 20px;
+}
+.formHandle{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.tagLevel{
+    color:white;
+    background:teal;
+    padding:10px 15px;
+    border-radius:20px;
+    margin:7px;
+}
+.borderStyling{
+    margin:20px 0px;
+    padding-bottom:10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.modifyButtons{
+    position:absolute;
+    top: -8px;
+    right:10px;
+    padding: 4px;
+    background: white;
+    border-radius:20px;
+    display:none;
+    /* visibility:hidden; */
+}
+.actionButtons{
+    cursor:pointer;
+    color:gray;
+}
+.skillContainer{
+    display: inline-block;
+    margin-bottom:25px;
+    position:relative;
+}
+.skillContainer:hover .modifyButtons{
+    display:block;
+    transition:all 0.3s ease-out;
+}
+.inputField{
+    width:100%;
+    border:none;
+    outline:none;
+    background:#F2F2F2;
+    color: #757575;
+    padding:11px 20px;
+    border-radius: 5px;
+    font-weight:bold;
+    margin-bottom:1rem;
+    margin-top:10px;
+}
+.formInputField{
+    width:100%;
+}
+.formInputField label {
+    font-weight: bold;
+    color: #999999;
+    text-transform: capitalize;
+}
+.buttonStyle, .buttonStyle2{
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    background:teal;
+    color:white;
+    padding:10px 12px;
+    margin-top:10px;
+    /* cursor:pointer */
+}
+.buttonStyle{
+  cursor:pointer
+}

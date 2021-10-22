@@ -1,0 +1,10 @@
+.noDataImg{
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+.noImgHandle{
+    display:flex;
+    justify-content:center;
+}

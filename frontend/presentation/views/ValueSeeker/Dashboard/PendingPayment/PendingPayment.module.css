@@ -1,0 +1,41 @@
+.pendingPayCard {
+    background-color: #eef7fe !important;
+    width: 100% !important;
+    margin: 1rem auto !important;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #f5f5f5;
+}
+
+.modalCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #84cb5b !important;
+    color: #fff !important;
+    padding: 1rem !important;
+    flex: 1 !important;
+}
+
+.timeCard {
+    background-color: #ff961e !important;
+    border-radius: 10px !important;
+    color: #fff !important;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.timeCard>* {
+    margin-left: 10px !important;
+}
